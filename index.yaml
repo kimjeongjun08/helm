@@ -8,6 +8,6 @@ entries:
     home: https://kimjeongjun08.github.io/helm/index.yaml
     name: spring-app
     urls:
-    - https://raw.githubusercontent.com/kimjeongjun08/helm/refs/heads/main/spring-app-0.1.0.tgz
+    - https://kimjeongjun08.github.io/helm/spring-app-0.1.0.tgz
     version: 0.1.0
 generated: "2025-01-15T02:08:28.043276143Z"
