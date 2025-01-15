@@ -1,5 +1,5 @@
 apiVersion: v2
 name: spring-app
-version: 0.1.0
-appVersion: 0.1.0
+version: 0.2.0
+appVersion: 0.2.0
 home: https://kimjeongjun08.github.io/helm/index.yaml
