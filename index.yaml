@@ -6,7 +6,6 @@ entries:
     created: "2025-01-15T02:08:28.04415167Z"
     digest: 103e96fe8ee9e8f266063456a569f37cf602ab936945882853e372c167c2527f
     home: https://kimjeongjun08.github.io/helm/index.yaml
-    kubeVersion: '>= 1.20.0'
     name: spring-app
     urls:
     - https://raw.githubusercontent.com/kimjeongjun08/helm/refs/heads/main/spring-app-0.1.0.tgz
