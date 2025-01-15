@@ -1,0 +1,14 @@
+project:
+  name: wsc2024
+  type: NodePort
+  port: 80
+  target_port: 5000
+
+spec:
+  replicas: 2
+
+image:
+  url: 003150130236.dkr.ecr.ap-northeast-2.amazonaws.com/main:latest
+
+namespace:
+  name: skills

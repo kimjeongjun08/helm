@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Values.project.name }}
+spec:
+  selector:
+    app: {{ .Values.project.name }}
+  type: {{ .Values.project.type }}
+  ports:
+    - protocol: TCP
+      port: {{ .Values.project.port }}
+      targetPort: {{ .Values.project.target_port }}

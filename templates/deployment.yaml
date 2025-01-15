@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Values.project.name }}
+  namespace: {{ .Values.namespace.name }}
+spec:
+  replicas: {{ .Values.spec.replicas }}
+  selector:
+    matchLabels:
+      app: {{ .Values.project.name }}
+  template:
+    metadata:
+      labels:
+        app: {{ .Values.project.name }}
+    spec:
+      containers:
+        - name: {{ .Values.project.name }}
+          image: {{ .Values.image.url }}
